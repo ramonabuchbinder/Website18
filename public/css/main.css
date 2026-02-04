@@ -1,0 +1,25 @@
+.handwritten{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.6rem;
+  display: block;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+
+.tilted-left {
+  transform: rotate(-5deg);
+  text-align: left;
+  margin-top: 50px;
+}
+
+.tilted-right {
+    transform: rotate(7deg);
+    text-align: right;     /* Text nach rechts */
+}
+
+
+.birthdaycake {
+    width: 250px; /* Bild kleiner machen */ 
+    display: block; /* Damit margin: auto funktioniert */ 
+    margin: 20px auto; 
+}
